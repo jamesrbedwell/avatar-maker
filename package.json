@@ -1,0 +1,15 @@
+{
+	"author": "James Bedwell",
+	"license": "MIT",
+	"scripts": {
+		"start": "node -r esm faceDetection.js",
+		"imageClipper": "node -r esm imageClipper.js"
+	},
+	"dependencies": {
+		"@tensorflow/tfjs-node": "1.5.2",
+		"canvas": "^2.6.1",
+		"esm": "^3.2.25",
+		"face-api.js": "0.22.1",
+		"sharp": "^0.24.1"
+	}
+}

@@ -6,7 +6,7 @@ Making assumptions that the nose is somewhere near the middle of the face.
 
 To give it a go.
 
-1. git clone https://github.com/jamesrbedwell/avatar-maker
+1. git clone https://github.com/jamesrbedwell/avatar-maker.git
 2. npm i or yarn
 3. Add your images to the images folder
 4. npm start or yarn start
