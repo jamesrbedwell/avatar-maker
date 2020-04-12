@@ -17,8 +17,8 @@ const checkVal = (val, newMeasurement, compareVal) => {
 };
 
 const createAvatar = async (filename) => {
-	await faceapi.nets.ssdMobilenetv1.loadFromDisk('../face-api.js/weights');
-	await faceapi.nets.faceLandmark68Net.loadFromDisk('../face-api.js/weights');
+	await faceapi.nets.ssdMobilenetv1.loadFromDisk('./weights');
+	await faceapi.nets.faceLandmark68Net.loadFromDisk('./weights');
 	const img = await canvas.loadImage(`./images/${filename}`);
 	const landmarks = await faceapi.detectFaceLandmarks(img);
 	const dimensions = await faceapi.getMediaDimensions(img);
